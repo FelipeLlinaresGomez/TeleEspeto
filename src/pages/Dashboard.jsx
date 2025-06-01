@@ -26,7 +26,7 @@ function Dashboard() {
           </div>
           <div className="hero-image">
             <img
-              src="public/images/foto_1.jpeg"
+              src="/images/foto_1.jpeg"
               alt="Álvaro de Sebastián - Espetero Profesional"
               onError={(e) => {
                 e.target.src = 'https://via.placeholder.com/400x500/1e40af/ffffff?text=Álvaro+de+Sebastián'
